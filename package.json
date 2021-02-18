@@ -1,0 +1,22 @@
+{
+  "name": "ireland-project-sass",
+  "version": "1.0.0",
+  "description": "Ireland-Project-SASS",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roziier/Ireland-Project-SASS.git"
+  },
+  "author": "Rik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roziier/Ireland-Project-SASS/issues"
+  },
+  "homepage": "https://github.com/roziier/Ireland-Project-SASS#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
