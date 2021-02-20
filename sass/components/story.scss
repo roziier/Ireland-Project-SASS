@@ -2,11 +2,16 @@
   width: 75%;
   margin: 0 auto;
   box-shadow: 0 3rem 6rem rgba($color-black, 0.1);
-  background-color: 3px;
+  background-color: $color-white;
+  opacity: 0.7;
   padding: 6rem;
   padding-left: 9rem;
   font-size: $default-font-size;
   transform: skewX(-12deg);
+
+  &:hover {
+    opacity: 1;
+  }
 
   &__shape {
     width: 15rem;
