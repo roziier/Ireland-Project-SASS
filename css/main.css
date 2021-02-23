@@ -108,6 +108,10 @@ body {
 .u-margin-bottom-big {
   margin-bottom: 8rem; }
 
+.video-paddings {
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
+
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -451,6 +455,9 @@ body {
     height: 100%;
     width: 100%;
     object-fit: cover; }
+
+.video-scale:hover {
+  transform: scale(1.8) !important; }
 
 .header {
   height: 95vh;

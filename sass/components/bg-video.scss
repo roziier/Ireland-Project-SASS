@@ -14,3 +14,7 @@
     object-fit: cover;
   }
 }
+
+.video-scale:hover {
+  transform: scale(1.8) !important;
+}
