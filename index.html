@@ -19,7 +19,9 @@
     <!-- Navigation -->
     <div class="navigation">
       <input type="checkbox" class="navigation__checkbox" id="navi-toogle" />
-      <label for="navi-toogle" class="navigation__button">MENU</label>
+      <label for="navi-toogle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
       <div class="navigation__background">&nbsp;</div>
 
       <nav class="navigation__nav">
@@ -60,7 +62,9 @@
           <span class="heading-primary--main">Ireland</span>
           <span class="heading-primary--sub">discover the Emerald Isle</span>
         </h1>
-        <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+        <a href="#section-tours" class="btn btn--white btn--animated"
+          >Discover our tours</a
+        >
       </div>
     </header>
     <!-- Main  -->
@@ -166,7 +170,7 @@
         </div>
       </section>
 
-      <section class="section-tours">
+      <section class="section-tours" id="section-tours">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">Most popular tour</h2>
         </div>
@@ -198,7 +202,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">$299</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -229,7 +233,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">$499</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -260,7 +264,7 @@
                     <p class="card__price-only">Only</p>
                     <p class="card__price-value">$699</p>
                   </div>
-                  <a href="#" class="btn btn--white">Book now!</a>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
                 </div>
               </div>
             </div>
@@ -416,5 +420,32 @@
         </ul>
       </div>
     </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img class="popup__img" src="img/nat-8.jpg" alt="Tour photo" />
+          <img class="popup__img" src="img/nat-9.jpg" alt="Tour photo" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            start booking now
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">Important</h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            nostrum quasi quam excepturi dolore nihil, error id odit minus ad
+            perferendis est assumenda maxime temporibus molestias voluptatibus.
+            Praesentium, odio exercitationem. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Quibusdam nostrum quasi quam excepturi
+            dolore nihil, error id odit minus ad perferendis est assumenda
+            maxime temporibus molestias voluptatibus. Praesentium, odio
+            exercitationem.
+          </p>
+          <a href="#" class="btn btn--green">Book now</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
